@@ -1,0 +1,140 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      4095,        130]
+NotebookOptionsPosition[      3580,        107]
+NotebookOutlinePosition[      3935,        123]
+CellTagsIndexPosition[      3892,        120]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"d", "=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{"1", "-", "p"}], ")"}], "/", 
+   RowBox[{"(", 
+    RowBox[{"4", "-", 
+     RowBox[{"2", "p"}]}], ")"}]}]}]], "Input",
+ CellChangeTimes->{{3.6058339926835947`*^9, 3.605834044659425*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"1", "-", "p"}], 
+  RowBox[{"4", "-", 
+   RowBox[{"2", " ", "p"}]}]]], "Output",
+ CellChangeTimes->{{3.605834023448964*^9, 3.605834045090168*^9}}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.6058340257494993`*^9, 3.605834032247766*^9}}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.6058340300515223`*^9, 3.605834030065076*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"4", "d"}], "-", "1"}], ")"}], "/", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"2", "d"}], "-", "1"}], ")"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"d", ",", "0", ",", "0.3"}], "}"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", "1"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "1"}], "}"}]}], "}"}]}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Thick", ",", "Red"}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.605834277928886*^9, 3.605834321111927*^9}, {
+  3.605834384160777*^9, 3.605834420309951*^9}, {3.605834507107975*^9, 
+  3.605834515797526*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}, 
+   {RGBColor[1, 0, 0], Thickness[Large], LineBox[CompressedData["
+1:eJwtxQtQywEAx/HUxVmP62ZI+NdWubhLsgq59UOhDl0t7iJUsru0ul3lrjjq
+uiHlvWPyKFf0FJll85osLaWYHmpq1tZrG62/6295hHDne/e5L3OfgMuztbGx
+WfHXv1MD8/zqtwSHUPS079PTJIqF7h6O7q5IynD+dfQ3CYG3/GQv4YPAwkjt
+1E8SsZO2HAWxGmsjxb5fv5N4rfOZf48IR6Ze6jZGkZjVtfZYNRGL0Oelbmoj
+Ca9tquAKIhk9YvPpQ2oSbBpNfIvIxt36CUZ8CYnrHV/st7MKEO7O8tT5k+jm
+1ac03RZhb6dmh7V1HL7Lo4fllUWoMPRkn0scx+Qyeq7Q+wYiOl8FJ1gsWH+D
+xg24WoZ8yakgRo4F60IJq2iwHIf7DnODbC0wbfVkliysBt/RetH3+BgmEiPo
+QYtrsX+X51Sc0xgCLsxgPI6vw5jYiXqT/wkWXloaL1ACyXDIk0uzPoEh484N
+k97HzQipG//ER8TOyVMVRdcj3mVl4ppJM7ZNQsPufgBTVFSjjG/G3tHNVFiW
+HFczHWROHSaEFbRwa+mPwHZkFgkCTOiXvGfsEj2GMESeN1psxFkje+Doyqdo
+62cXHrOOYqKMcDTJFEiuqaJiYkaRweeub4lrQPnOllvvikeQlJm7J/fIcwxd
+CQ8tGBnGCFXcxuEoUWAs9dGxh2H9oeescm6Ew4IaZVXqEHRhqYaYjkYYFiuG
+ltUOwt/Errx2/gWyU/waHMwG0Oke6URCE+xZPDe1kwHtOdtTm5gqDMzu4ijW
+6MHIuMMvp1TYJKypOyvWofnZhjMSZTOyDnpMjdRpER3podfnvcSU6Ol0oaYP
+KftZq7ZwW0D/LLy8WqVBnCK1QcNoRXR3R6+vsgdyAXXgQlcrXDXOi+Kk3Sit
+KnE9XvYKRruf8S6JnUjyEn27ltSGHVWu7WbiLaRLarSWgHZUb9r9YTOzDVo+
+bWLft3a0vnSZGeLVDAGtcqndw9do4Cb3281W4rxfMk+X/wYPvU+IzYdkKLyc
+3qmNUCPKy8e/dGMF0p1zWQnTatj87w+iRnoE
+     "]]}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesOrigin->{0, 0},
+  PlotRange->{{0, 1}, {0, 1}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.605834322525372*^9, {3.60583439345997*^9, 3.605834421061458*^9}, 
+   3.60583451676976*^9}]
+}, Open  ]]
+},
+WindowSize->{740, 588},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (February 23, \
+2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 259, 8, 27, "Input"],
+Cell[841, 32, 184, 5, 49, "Output"]
+}, Open  ]],
+Cell[1040, 40, 94, 1, 27, "Input"],
+Cell[1137, 43, 94, 1, 27, InheritFromParent],
+Cell[CellGroupData[{
+Cell[1256, 48, 789, 24, 27, "Input"],
+Cell[2048, 74, 1516, 30, 243, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
